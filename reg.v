@@ -1,17 +1,3 @@
-/*module mux4(input wire i0,i1,i2,i3, input wire [1:0] j, output reg out);
-
-always @(i0,i1,i2,i3,j)
-begin
-case (j)
-2'b00: out = i0;
-2'b01: out = i1;
-2'b10: out = i2;
-2'b11: out = i3;
-default: out = 2'bXX;
-endcase
-end
-endmodule
-*/
 module mux4x1(input wire i0,i1,i2,i3, input wire s1, s0, output wire o);
 	wire t0, t1;
 	mux2x1 mux2_0 (i0, i1, s1, t0);
