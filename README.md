@@ -2,7 +2,7 @@
 A verilog program that mimics the circuitry of a 4-bit register implemented with four 4x1 multiplexers and four D-Flipflops.  
 The register operates according to the value of the select lines as shown below:-  
   
-**s1               s0         Output**   
+**s1 &nbsp&nbsp s0         Output**   
 0                  0          No change  
 0                  1          Complement Output  
 1                  0          Shift the bits to the right  
