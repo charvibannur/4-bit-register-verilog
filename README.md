@@ -24,6 +24,10 @@ The lib.v file contains the code for the basic gates, D-flip flop and a 2x1 mult
 ``` 
 gtkwave tb_file.vcd 
 ``` 
+
+![image](https://user-images.githubusercontent.com/77164319/140698330-03e5a7d5-92f5-4922-9b35-fd7ef46aa9b1.png)
+
+
 # Team Members :
 
 Charvi Bannur :  https://github.com/charvibannur
